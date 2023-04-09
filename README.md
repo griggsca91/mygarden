@@ -13,11 +13,11 @@ Use case is to help remind me when I should harvest and what I currently have pl
 
 ### Do once the first time
 ```sh
-pip3 install -r requiremnts.txt
-DJANGO_SUPERUSER_PASSWORD=testpass1234 python3 manage.py createsuperuser --noinput --username admin --email email@email.com
+$ pip3 install -r requirements.txt
+$ DJANGO_SUPERUSER_PASSWORD=testpass1234 python3 manage.py createsuperuser --noinput --username admin --email email@email.com
 ```
 
 ### To startup the server
 ```sh
-python3 manage.py runserver
+$ python3 manage.py runserver
 ```
