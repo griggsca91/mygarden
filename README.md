@@ -12,8 +12,12 @@ Use case is to help remind me when I should harvest and what I currently have pl
 ## Running Locally
 
 ### Do once the first time
-`pip3 install -r requiremnts.txt`
-`DJANGO_SUPERUSER_PASSWORD=testpass1234 python3 manage.py createsuperuser --noinput --username admin --email email@email.com`
+```sh
+pip3 install -r requiremnts.txt
+DJANGO_SUPERUSER_PASSWORD=testpass1234 python3 manage.py createsuperuser --noinput --username admin --email email@email.com
+```
 
 ### To startup the server
-`python3 manage.py runserver`
+```sh
+python3 manage.py runserver
+```
