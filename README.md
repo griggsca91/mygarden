@@ -6,8 +6,8 @@ Use case is to help remind me when I should harvest and what I currently have pl
 
 ## Features
 
-* Add gardens and the plants in the garden
-* Overview the status of your garden on when you should begin to harvest based on the date you planted
+* Add the gardens their plants that you're tracking
+* View the status of the plants that you will need to harvest based on dates
 
 ## Running Locally
 
