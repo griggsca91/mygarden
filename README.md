@@ -19,5 +19,5 @@ $ DJANGO_SUPERUSER_PASSWORD=testpass1234 python3 manage.py createsuperuser --noi
 
 ### To startup the server
 ```sh
-$ python3 manage.py runserver
+$ DEBUG=true python3 manage.py runserver
 ```
